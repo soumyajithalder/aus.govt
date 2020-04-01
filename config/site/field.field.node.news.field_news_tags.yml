@@ -1,0 +1,29 @@
+uuid: d8aed6ea-92fe-4c96-bf20-ccdcb7b69066
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_tags
+    - node.type.news
+    - taxonomy.vocabulary.news_and_events_tags
+id: node.news.field_news_tags
+field_name: field_news_tags
+entity_type: node
+bundle: news
+label: 'News Tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      news_and_events_tags: news_and_events_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: news_tags
+field_type: entity_reference

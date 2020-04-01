@@ -1,0 +1,22 @@
+uuid: d83c56cb-d416-4688-a8c0-1f1662ebd172
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: information_and_services_page
+label: 'Information and Services Page'
+type: 'canonical_entities:node'
+pattern: 'information-and-services/[node:title]'
+selection_criteria:
+  378072a2-23a2-4c20-a734-e6192273bf8d:
+    id: node_type
+    bundles:
+      basic_info_and_services_page: basic_info_and_services_page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 378072a2-23a2-4c20-a734-e6192273bf8d
+selection_logic: and
+weight: -5
+relationships: {  }

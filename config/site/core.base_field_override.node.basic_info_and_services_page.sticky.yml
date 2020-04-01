@@ -1,0 +1,22 @@
+uuid: 45e0e9ed-a0e5-40e7-bf39-342e1d4c96fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.basic_info_and_services_page
+id: node.basic_info_and_services_page.sticky
+field_name: sticky
+entity_type: node
+bundle: basic_info_and_services_page
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

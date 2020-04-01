@@ -1,0 +1,18 @@
+uuid: 496536ac-3b37-4296-9357-27cfab4f6f67
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.domestic_and_international_news_
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.domestic_and_international_news_
+target_entity_type_id: block_content
+target_bundle: domestic_and_international_news_
+default_langcode: site_default
+language_alterable: true

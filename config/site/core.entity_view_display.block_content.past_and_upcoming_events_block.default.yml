@@ -1,0 +1,31 @@
+uuid: ea67caba-ee64-4972-a981-72216541976b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.past_and_upcoming_events_block
+    - field.field.block_content.past_and_upcoming_events_block.body
+    - field.field.block_content.past_and_upcoming_events_block.field_events_menu_title
+  module:
+    - text
+id: block_content.past_and_upcoming_events_block.default
+targetEntityType: block_content
+bundle: past_and_upcoming_events_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_events_menu_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  langcode: true

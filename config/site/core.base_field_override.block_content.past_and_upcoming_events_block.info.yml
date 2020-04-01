@@ -1,0 +1,18 @@
+uuid: 117b8a39-06ac-4aba-9fef-c6a1036f6609
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.past_and_upcoming_events_block
+id: block_content.past_and_upcoming_events_block.info
+field_name: info
+entity_type: block_content
+bundle: past_and_upcoming_events_block
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

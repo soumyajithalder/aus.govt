@@ -1,0 +1,8 @@
+uuid: 4e2fcd6a-392f-4bd3-908d-d2bde09da85b
+langcode: en
+status: true
+dependencies: {  }
+name: 'News and Events Tags'
+vid: news_and_events_tags
+description: ''
+weight: 0

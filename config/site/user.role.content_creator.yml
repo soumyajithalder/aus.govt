@@ -1,0 +1,20 @@
+uuid: 0e8ce1c1-b2bd-434a-ae2d-7e127c5c67f7
+langcode: en
+status: true
+dependencies: {  }
+id: content_creator
+label: 'Content Creator'
+weight: 5
+is_admin: null
+permissions:
+  - 'create basic_info_and_services_page content'
+  - 'create content content'
+  - 'delete own basic_info_and_services_page content'
+  - 'delete own content content'
+  - 'edit own basic_info_and_services_page content'
+  - 'edit own content content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition send_to_admin'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'

@@ -1,0 +1,31 @@
+uuid: a02a3bab-ff5c-4ec3-a8cf-4cd10084b013
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:news_and_events_sidebar_block:562fc7b3-d97b-4712-ac76-50af7a0907fb'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: newsandeventssidebarsection
+theme: bootstrap
+region: sidebar_first
+weight: -12
+provider: null
+plugin: 'block_content:562fc7b3-d97b-4712-ac76-50af7a0907fb'
+settings:
+  id: 'block_content:562fc7b3-d97b-4712-ac76-50af7a0907fb'
+  label: 'News and Events Sidebar Section'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /news-and-events
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,8 @@
+uuid: 50991b14-0d01-4600-a454-125785b36f27
+langcode: en
+status: true
+dependencies: {  }
+id: domestic_and_international_news_
+label: 'Domestic and International News Block'
+revision: 0
+description: 'Block to display links to Domestic and International News'

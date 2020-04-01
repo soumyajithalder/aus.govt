@@ -1,0 +1,18 @@
+uuid: 92eda296-4e03-4e72-94c5-ab2663bb549f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.news_and_events
+id: block_content.news_and_events.info
+field_name: info
+entity_type: block_content
+bundle: news_and_events
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 19137941-3a36-435d-87fa-70fd6905199b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.news_and_events_sidebar_block
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.news_and_events_sidebar_block.body
+field_name: body
+entity_type: block_content
+bundle: news_and_events_sidebar_block
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

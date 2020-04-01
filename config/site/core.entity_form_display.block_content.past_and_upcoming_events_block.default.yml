@@ -1,0 +1,49 @@
+uuid: bceaa6af-46a9-4675-b249-ba0b44a8aeaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.past_and_upcoming_events_block
+    - field.field.block_content.past_and_upcoming_events_block.body
+    - field.field.block_content.past_and_upcoming_events_block.field_events_menu_title
+  module:
+    - text
+id: block_content.past_and_upcoming_events_block.default
+targetEntityType: block_content
+bundle: past_and_upcoming_events_block
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_events_menu_title:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

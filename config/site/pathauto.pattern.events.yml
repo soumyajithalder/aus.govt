@@ -1,0 +1,22 @@
+uuid: a6578e1a-697e-4d7d-acee-5db17b7ba817
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: events
+label: Events
+type: 'canonical_entities:node'
+pattern: 'news-and-events/events/[node:title]'
+selection_criteria:
+  967beff0-0c13-4af6-acb2-4d40e6de0a1b:
+    id: node_type
+    bundles:
+      event: event
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 967beff0-0c13-4af6-acb2-4d40e6de0a1b
+selection_logic: and
+weight: -5
+relationships: {  }

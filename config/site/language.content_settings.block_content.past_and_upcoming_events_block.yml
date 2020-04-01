@@ -1,0 +1,18 @@
+uuid: 362487fe-b5dc-46d2-a299-9f357d07000e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.past_and_upcoming_events_block
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.past_and_upcoming_events_block
+target_entity_type_id: block_content
+target_bundle: past_and_upcoming_events_block
+default_langcode: site_default
+language_alterable: true

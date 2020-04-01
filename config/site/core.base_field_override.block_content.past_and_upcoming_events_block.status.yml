@@ -1,0 +1,22 @@
+uuid: 883c5653-013b-430a-8a70-c18386b09552
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.past_and_upcoming_events_block
+id: block_content.past_and_upcoming_events_block.status
+field_name: status
+entity_type: block_content
+bundle: past_and_upcoming_events_block
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

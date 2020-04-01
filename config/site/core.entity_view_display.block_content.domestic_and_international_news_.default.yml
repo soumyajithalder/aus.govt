@@ -1,0 +1,31 @@
+uuid: 1d370e54-4286-47e2-b3a3-b190434b3068
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.domestic_and_international_news_
+    - field.field.block_content.domestic_and_international_news_.body
+    - field.field.block_content.domestic_and_international_news_.field_menu_title
+  module:
+    - text
+id: block_content.domestic_and_international_news_.default
+targetEntityType: block_content
+bundle: domestic_and_international_news_
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_menu_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  langcode: true

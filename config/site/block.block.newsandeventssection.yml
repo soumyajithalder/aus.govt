@@ -1,0 +1,31 @@
+uuid: f4cb1940-4cab-40fc-a57e-dc9e14589ad2
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:news_and_events:320f0536-183e-4d3c-b847-30f61ff27945'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: newsandeventssection
+theme: bootstrap
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:320f0536-183e-4d3c-b847-30f61ff27945'
+settings:
+  id: 'block_content:320f0536-183e-4d3c-b847-30f61ff27945'
+  label: 'News and Events Section'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /news-and-events
+    negate: false
+    context_mapping: {  }

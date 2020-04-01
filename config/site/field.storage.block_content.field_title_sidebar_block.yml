@@ -1,0 +1,20 @@
+uuid: e9ff909d-d8af-4572-8c0f-79696c6ab9d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_title_sidebar_block
+field_name: field_title_sidebar_block
+entity_type: block_content
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

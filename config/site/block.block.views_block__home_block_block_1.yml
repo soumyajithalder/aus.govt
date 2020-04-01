@@ -1,0 +1,30 @@
+uuid: f0891550-24ad-4117-af6e-e1eb367ca2b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.home_block
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__home_block_block_1
+theme: bootstrap
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:home_block-block_1'
+settings:
+  id: 'views_block:home_block-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

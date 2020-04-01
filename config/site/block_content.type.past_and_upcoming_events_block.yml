@@ -1,0 +1,8 @@
+uuid: 1f4eae02-3ce1-48a5-ab0e-64916829e4cf
+langcode: en
+status: true
+dependencies: {  }
+id: past_and_upcoming_events_block
+label: 'Past and Upcoming Events Block'
+revision: 0
+description: 'Block to display Past and Upcoming Events Links'

@@ -1,0 +1,18 @@
+uuid: 0222b1f3-6e30-4aa3-99f7-6b23bb39be16
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.domestic_and_international_news_
+id: block_content.domestic_and_international_news_.changed
+field_name: changed
+entity_type: block_content
+bundle: domestic_and_international_news_
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

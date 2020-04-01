@@ -1,0 +1,25 @@
+uuid: 73dc5d72-f753-4095-b610-7848c13b2de0
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.custom-menu
+  module:
+    - system
+  theme:
+    - bootstrap
+id: custommenu
+theme: bootstrap
+region: content
+weight: -9
+provider: null
+plugin: 'system_menu_block:custom-menu'
+settings:
+  id: 'system_menu_block:custom-menu'
+  label: 'Custom Menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

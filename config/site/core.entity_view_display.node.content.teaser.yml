@@ -1,0 +1,59 @@
+uuid: a99f8498-2202-447f-abb9-e5df447b4b52
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.content.body
+    - field.field.node.content.field_content_image
+    - field.field.node.content.field_content_link
+    - node.type.content
+  module:
+    - ds
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      content:
+        - node_title
+        - body
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h2
+          class: ''
+id: node.content.teaser
+targetEntityType: node
+bundle: content
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 450
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_content_image: true
+  field_content_link: true
+  langcode: true
+  links: true

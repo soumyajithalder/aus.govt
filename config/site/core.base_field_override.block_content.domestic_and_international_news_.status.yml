@@ -1,0 +1,22 @@
+uuid: 73f1c71c-ee1c-41c1-9daf-43488d19a2a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.domestic_and_international_news_
+id: block_content.domestic_and_international_news_.status
+field_name: status
+entity_type: block_content
+bundle: domestic_and_international_news_
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

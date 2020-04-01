@@ -1,0 +1,11 @@
+uuid: 716913cd-f625-4da8-ba8e-b5c4f4037dd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.workflow
+id: block_content.workflow
+target_entity_type_id: block_content
+target_bundle: workflow
+default_langcode: site_default
+language_alterable: false

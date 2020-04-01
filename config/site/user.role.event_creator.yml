@@ -1,0 +1,16 @@
+uuid: 9d7969ab-3e56-4b4a-be59-5ca737f64536
+langcode: en
+status: true
+dependencies: {  }
+id: event_creator
+label: 'Event Creator'
+weight: 3
+is_admin: null
+permissions:
+  - 'create event content'
+  - 'delete own event content'
+  - 'edit own comments'
+  - 'edit own event content'
+  - 'use editorial transition archive'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'

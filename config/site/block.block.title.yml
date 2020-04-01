@@ -1,0 +1,31 @@
+uuid: e36c8197-f6dd-4af6-badd-722e639004ae
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3f9c0c7b-57ea-4231-9c5d-013ce4404952'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: title
+theme: bootstrap
+region: sidebar_first
+weight: -13
+provider: null
+plugin: 'block_content:3f9c0c7b-57ea-4231-9c5d-013ce4404952'
+settings:
+  id: 'block_content:3f9c0c7b-57ea-4231-9c5d-013ce4404952'
+  label: Title
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/information-and-services\r\n/news-and-events\r\n/news-and-events/news\r\n/news-and-events/news/domestic-news\r\n/news-and-events/news/international-news\r\n/news-and-events/events\r\n/news-and-events/events/past-events\r\n/news-and-events/events/upcoming-events"
+    negate: false
+    context_mapping: {  }

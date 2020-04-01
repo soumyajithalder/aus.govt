@@ -1,0 +1,21 @@
+uuid: d812bd52-4801-40e8-a703-8fe98f569ce3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.past_and_upcoming_events_block
+    - field.storage.block_content.field_events_menu_title
+  module:
+    - text
+id: block_content.past_and_upcoming_events_block.field_events_menu_title
+field_name: field_events_menu_title
+entity_type: block_content
+bundle: past_and_upcoming_events_block
+label: 'Events Menu Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,51 @@
+uuid: d09f20aa-de0f-4fe1-b366-08c6986706ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.news_and_events
+    - core.entity_view_mode.block_content.token
+    - field.field.block_content.news_and_events.body
+    - field.field.block_content.news_and_events.field_title
+  module:
+    - ds
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      content:
+        - field_title
+        - body
+id: block_content.news_and_events.token
+targetEntityType: block_content
+bundle: news_and_events
+mode: token
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,15 @@
+uuid: 494ae029-83e5-42dc-96ed-f2705e298765
+langcode: en
+status: true
+dependencies: {  }
+id: news_creator
+label: 'News Creator'
+weight: 4
+is_admin: null
+permissions:
+  - 'create news content'
+  - 'delete own news content'
+  - 'edit own news content'
+  - 'use editorial transition archive'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'

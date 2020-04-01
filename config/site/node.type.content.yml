@@ -1,0 +1,17 @@
+uuid: bc6e1295-fa8e-4f54-b746-52ee4cada02a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Contents
+type: content
+description: 'This is used to add content by Content Creators'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

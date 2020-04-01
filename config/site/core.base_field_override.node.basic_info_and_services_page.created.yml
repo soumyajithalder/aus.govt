@@ -1,0 +1,18 @@
+uuid: b3b718bf-8ed5-4c38-a646-3d6ef785ed8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.basic_info_and_services_page
+id: node.basic_info_and_services_page.created
+field_name: created
+entity_type: node
+bundle: basic_info_and_services_page
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

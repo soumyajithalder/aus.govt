@@ -1,0 +1,31 @@
+uuid: 5334094c-b066-43a7-9fe7-383dd1ebaeec
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:domestic_and_international_news_:2557e0c1-be4e-4a76-8978-c3096d47ae4c'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: domesticnewsblock
+theme: bootstrap
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'block_content:2557e0c1-be4e-4a76-8978-c3096d47ae4c'
+settings:
+  id: 'block_content:2557e0c1-be4e-4a76-8978-c3096d47ae4c'
+  label: 'Domestic News Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/news-and-events/news\r\n/news-and-events/news/international-news"
+    negate: false
+    context_mapping: {  }

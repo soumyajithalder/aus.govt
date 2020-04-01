@@ -1,0 +1,32 @@
+uuid: 0008156a-e69b-4e56-ad06-faf3fb8822ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.news_and_events_sidebar_block
+    - field.field.block_content.news_and_events_sidebar_block.body
+    - field.field.block_content.news_and_events_sidebar_block.field_title_sidebar_block
+  module:
+    - text
+id: block_content.news_and_events_sidebar_block.default
+targetEntityType: block_content
+bundle: news_and_events_sidebar_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_title_sidebar_block:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  langcode: true

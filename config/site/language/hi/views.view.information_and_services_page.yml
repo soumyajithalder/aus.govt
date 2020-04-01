@@ -1,0 +1,8 @@
+display:
+  default:
+    display_options:
+      title: 'सूचना और सेवाएँ'
+  page_1:
+    display_options:
+      menu:
+        title: 'सूचना और सेवाएँ'

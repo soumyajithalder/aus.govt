@@ -1,0 +1,15 @@
+uuid: 41f090aa-635f-4696-a71a-1d69bdf7d28a
+name: 'Australian Government'
+mail: soumyajit.halder@innoraft.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: ''

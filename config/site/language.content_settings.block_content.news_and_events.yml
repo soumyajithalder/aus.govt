@@ -1,0 +1,18 @@
+uuid: a46d4745-7664-4f8a-886c-183b4ba5cb9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.news_and_events
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.news_and_events
+target_entity_type_id: block_content
+target_bundle: news_and_events
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,36 @@
+uuid: ecdcdd53-5110-4160-b841-67325521ab14
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - language
+    - taxonomy
+id: events_tags
+label: 'Events Tags'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/news-and-events/events/[term:name]'
+selection_criteria:
+  7e6f5d74-c84a-4258-a58e-28688325053c:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      events_tags: events_tags
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 7e6f5d74-c84a-4258-a58e-28688325053c
+  47d84ba8-3369-4b1d-9a15-45bf85d854b8:
+    id: language
+    langcodes:
+      en: en
+      hi: hi
+      es: es
+    negate: false
+    context_mapping:
+      language: 'taxonomy_term:langcode:language'
+    uuid: 47d84ba8-3369-4b1d-9a15-45bf85d854b8
+selection_logic: and
+weight: -10
+relationships:
+  'taxonomy_term:langcode:language':
+    label: Language

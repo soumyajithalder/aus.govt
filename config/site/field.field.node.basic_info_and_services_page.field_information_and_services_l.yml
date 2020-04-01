@@ -1,0 +1,23 @@
+uuid: f36f488a-e93f-4165-bb0d-14bd491a70dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_information_and_services_l
+    - node.type.basic_info_and_services_page
+  module:
+    - link
+id: node.basic_info_and_services_page.field_information_and_services_l
+field_name: field_information_and_services_l
+entity_type: node
+bundle: basic_info_and_services_page
+label: 'Information and Services Link'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

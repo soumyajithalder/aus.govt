@@ -1,0 +1,8 @@
+uuid: f7c62b3e-4ce5-40ee-8774-c7d26b0bb5b0
+langcode: en
+status: true
+dependencies: {  }
+id: workflow
+label: Workflow
+revision: 1
+description: ''

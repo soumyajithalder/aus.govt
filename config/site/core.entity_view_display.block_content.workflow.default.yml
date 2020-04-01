@@ -1,0 +1,23 @@
+uuid: 5be7595d-f6b8-4f7c-b546-7efe5276342e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.workflow
+    - field.field.block_content.workflow.body
+  module:
+    - text
+id: block_content.workflow.default
+targetEntityType: block_content
+bundle: workflow
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

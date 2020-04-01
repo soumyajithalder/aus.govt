@@ -1,0 +1,31 @@
+uuid: 2b8a9a09-0edc-42ed-940f-9f07a75800fa
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:past_and_upcoming_events_block:def6b8aa-5de8-4b58-af0b-351f4a2018df'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: pasteventsblock
+theme: bootstrap
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'block_content:def6b8aa-5de8-4b58-af0b-351f4a2018df'
+settings:
+  id: 'block_content:def6b8aa-5de8-4b58-af0b-351f4a2018df'
+  label: 'Past Events Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/news-and-events/events\r\n/news-and-events/events/upcoming-events"
+    negate: false
+    context_mapping: {  }

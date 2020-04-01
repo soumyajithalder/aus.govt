@@ -1,0 +1,30 @@
+uuid: 9af3a2ec-0617-4c30-afdd-ddef3a86f48e
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.domestic_and_international
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__domestic_and_international_block_1
+theme: bootstrap
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'views_block:domestic_and_international-block_1'
+settings:
+  id: 'views_block:domestic_and_international-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /news-and-events/news
+    negate: false
+    context_mapping: {  }

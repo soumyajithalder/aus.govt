@@ -1,0 +1,8 @@
+uuid: 6c0d0110-2355-43fd-b784-0fed4e717347
+langcode: en
+status: true
+dependencies: {  }
+id: news_and_events_sidebar_block
+label: 'News and Events Sidebar Block'
+revision: 0
+description: ''

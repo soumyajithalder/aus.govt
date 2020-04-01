@@ -1,0 +1,8 @@
+display:
+  default:
+    display_options:
+      title: 'अंतरराष्ट्रीय समाचार'
+  page_1:
+    display_options:
+      menu:
+        title: 'अंतरराष्ट्रीय समाचार'

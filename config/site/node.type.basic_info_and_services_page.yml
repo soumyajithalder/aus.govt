@@ -1,0 +1,17 @@
+uuid: 0be8320e-0c10-4630-8c24-f950202d5774
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Basic Info and Services page'
+type: basic_info_and_services_page
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

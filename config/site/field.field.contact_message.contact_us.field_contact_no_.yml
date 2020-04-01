@@ -1,0 +1,19 @@
+uuid: 54936c95-7589-47ee-b7d4-fe0a806ea1a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_us
+    - field.storage.contact_message.field_contact_no_
+id: contact_message.contact_us.field_contact_no_
+field_name: field_contact_no_
+entity_type: contact_message
+bundle: contact_us
+label: 'Contact No.'
+description: 'Provide us with your contact number if you have further queries. We will contact you soon.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

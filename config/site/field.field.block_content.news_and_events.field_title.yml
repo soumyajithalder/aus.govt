@@ -1,0 +1,21 @@
+uuid: c99a00bf-26ef-4d4a-a736-dd352d98156e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.news_and_events
+    - field.storage.block_content.field_title
+  module:
+    - text
+id: block_content.news_and_events.field_title
+field_name: field_title
+entity_type: block_content
+bundle: news_and_events
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

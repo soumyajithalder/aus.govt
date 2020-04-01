@@ -1,0 +1,18 @@
+uuid: 82803d49-344c-40be-8f1d-19caa601e2b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.past_and_upcoming_events_block
+id: block_content.past_and_upcoming_events_block.changed
+field_name: changed
+entity_type: block_content
+bundle: past_and_upcoming_events_block
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

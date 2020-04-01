@@ -1,0 +1,8 @@
+uuid: 4539d1a4-083f-4253-83d1-ff9589648fc5
+langcode: en
+status: true
+dependencies: {  }
+name: 'News Tags'
+vid: news_tags
+description: 'Shows content tagged with news tags'
+weight: 0

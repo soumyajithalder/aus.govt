@@ -1,0 +1,9 @@
+label: 'News and Events Page (Spanish)'
+display:
+  default:
+    display_options:
+      title: 'Noticias y Eventos'
+  page_1:
+    display_options:
+      menu:
+        title: 'Noticias y Eventos'

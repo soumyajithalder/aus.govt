@@ -1,0 +1,21 @@
+uuid: 5cb4ee59-053c-4f0c-bece-0f59e30824a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: 'Send message'
+    show_preview: true
+    disabled_form_message: 'This contact form has been disabled.'
+    maximum_submissions_user: 0
+    page_autoreply_format: plain_text
+id: contact_us
+label: 'Contact Us'
+recipients:
+  - soumyajit.halder@innoraft.com
+reply: 'Thank you for getting in touch with us. We will reply to you soon.'
+weight: 10
+message: 'Your message has been submitted.'
+redirect: ''

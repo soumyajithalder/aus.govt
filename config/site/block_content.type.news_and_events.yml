@@ -1,0 +1,8 @@
+uuid: 9cd0ef4e-64ca-40be-8a13-e19fac476448
+langcode: en
+status: true
+dependencies: {  }
+id: news_and_events
+label: 'News and Events'
+revision: 0
+description: ''

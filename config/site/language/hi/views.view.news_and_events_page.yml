@@ -1,0 +1,9 @@
+label: 'News and Events Page (Hindi)'
+display:
+  page_1:
+    display_options:
+      menu:
+        title: 'समाचार और कार्यक्रम'
+  default:
+    display_options:
+      title: 'समाचार और कार्यक्रम'

@@ -1,0 +1,23 @@
+uuid: d125e3b2-098b-4ef9-b65e-d92ad3208b73
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.domestic_and_international_news_
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.domestic_and_international_news_.body
+field_name: body
+entity_type: block_content
+bundle: domestic_and_international_news_
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,21 @@
+uuid: 2cfc0879-4950-42ca-8be1-d8ca74b3c482
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.domestic_and_international_news_
+    - field.storage.block_content.field_menu_title
+  module:
+    - text
+id: block_content.domestic_and_international_news_.field_menu_title
+field_name: field_menu_title
+entity_type: block_content
+bundle: domestic_and_international_news_
+label: 'Menu Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
